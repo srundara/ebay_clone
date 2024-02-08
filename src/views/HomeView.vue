@@ -1,9 +1,9 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import Slidebar from './slideMenu/Slidebar.vue'
 </script>
 
 <template>
-  <main>
-    <!-- <TheWelcome /> -->
-  </main>
+ <div class="">
+    <Slidebar/>
+ </div>
 </template>

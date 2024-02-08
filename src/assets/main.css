@@ -40,3 +40,17 @@
 .top_category_bar{
   border-bottom: 1px solid lightgray;
 }
+
+.slide-menu ul{
+  display: flex;
+}
+.slide-menu ul li a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+.slide-menu ul li a.router-link-active{
+  /* text-decoration: underline; */
+  /* border: 1px solid lightgray; */
+  color: red;
+}
