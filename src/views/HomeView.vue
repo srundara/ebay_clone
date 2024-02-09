@@ -4,6 +4,6 @@ import Slidebar from './slideMenu/Slidebar.vue'
 
 <template>
  <div class="">
-    <Slidebar/>
+    <!-- <Slidebar/> -->
  </div>
 </template>

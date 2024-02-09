@@ -36,7 +36,10 @@ export const slideBar = ref(
             },
             {
                 "id":"9",
-                "name":"Industrial equipment"
+                "name":"Industrial equipment",
+                "subMenu":{
+                    
+                }
             },
             {
                 "id":"10",
@@ -51,5 +54,19 @@ export const slideBar = ref(
                 "name":"Sell"
             },
         ]
+    }
+);
+export const slideItem = ref(
+    {
+        slideList:[
+            {
+                "id":"1",
+                "header":"Warm your heart with toys and LEGO®",
+                "title":"Grow the collection you deserve with collectibles on eBay.",
+                "button":"Gift yourself",
+                "img":""
+            }
+        ]
+
     }
 )
