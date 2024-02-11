@@ -91,3 +91,38 @@ button.btn-search:hover{
   color: white;
   padding-top: 10px;
 }
+.box{
+  padding: 10px 0px 10px 0px;
+  border-bottom: 1px dotted lightgray;
+  
+}
+.shopby-Category ul li a,h5{
+  padding: 0;
+  text-align: start;
+  color: black;
+  font-size: 14px;
+}
+.top-img-contant img{
+  width: 100%;
+  /* height: 250px; */
+}
+.box-img img{
+  width: 100%;
+  object-fit: cover;
+}
+.branch-show{
+  margin: auto;
+  padding: 1px;
+  width: 220px;
+  height: 250px;
+  text-align: center;
+}
+.branch-show .imgBranch img{
+  width: 100%;
+}
+.branch-show .imgBranch img:hover{
+  border: 1px solid lightgray;
+}
+.branch-show .imgBranch a{
+  color: black;
+}
