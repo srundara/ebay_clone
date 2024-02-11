@@ -31,7 +31,7 @@ const isActive = ref(true)
                                         <img :src="img.img" alt="">
                                     </div>
                                 </div>
-                                <div class="row mt-2">
+                                <div class="row mt-2 ">
                                     <h4>Shop By Branch</h4>
                                     <div class="branch-show " v-for="(item,i) in favoriteBrands.brands" :key="i" v-show="item.isActive">
                                         <div class="imgBranch" v-if="item.isActive">
