@@ -168,7 +168,7 @@ export const favoriteBrands = ref(
             },
             {
                 "id":"16",
-                "name":"Nokon",
+                "name":"Nikon",
                 "isActive":true,
                 "img":"/src/assets/img/branch_img/nikon.webp"            },
             {
@@ -227,5 +227,59 @@ export const shopByInterest = ref(
                 "name":"Virtual Reality"
             },
         ]
+    }
+)
+
+export const footerBar = ref(
+    {
+        footer:[
+            {
+                "id":"1",
+                "name":"About eBay"
+            },
+            {
+                "id":"2",
+                "name":"Announcements"
+            },
+            {
+                "id":"3",
+                "name":"Community"
+            },
+            {
+                "id":"4",
+                "name":"Security Center"
+            },
+            {
+                "id":"5",
+                "name":"Seller Information Center"
+            },
+            {
+                "id":"6",
+                "name":"Policies"
+            },
+            {
+                "id":"7",
+                "name":"Affiliates"
+            },
+            {
+                "id":"8",
+                "name":"Help & Contact"
+            },
+            {
+                "id":"9",
+                "name":"Site Map"
+            },
+        ],
+        copy:[
+            {
+                "id":"1",
+                "copy":"Copyright © 1995-2024 eBay Inc. All Rights Reserved."
+            }
+        ],
+        // footer:[
+        //     {
+
+        //     }
+        // ]
     }
 )

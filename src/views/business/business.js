@@ -52,6 +52,37 @@ export const imgShow =  ref(
         ],
     }
 )
+export const brandShow= ref(
+    {
+        show:[
+            {
+                "id":"1",
+                "img":"/src/assets/img/business/tv.webp",
+                "name":"TV, Video & Home Audio Electronics"
+            },
+            {
+                "id":"2",
+                "img":"/src/assets/img/business/cameras.webp",
+                "name":"Cameras"
+            },
+            {
+                "id":"3",
+                "img":"/src/assets/img/business/game.webp",
+                "name":"Video Games"
+            },
+            {
+                "id":"4",
+                "img":"/src/assets/img/business/electronics.webp",
+                "name":"Surveillance & Smart Home Electronics"
+            },
+            {
+                "id":"5",
+                "img":"/src/assets/img/business/headphones.webp",
+                "name":"Portable Adio & Headphones"
+            },
+        ],
+    }
+)
 // export const data = ref(
 //     {
 //         item:[

@@ -1,9 +1,10 @@
 <script setup>
 import {ref} from 'vue'
 import LeftBar from './LeftBar.vue'  
-import {imgHeader,topBrandImg,bottomImg,imgShow} from './business' 
+import {imgHeader,topBrandImg,bottomImg,imgShow,brandShow} from './business' 
 import { favoriteBrands } from '../nav/menu'
 import { RouterLink , RouterView } from 'vue-router'
+import Footer from '../nav/Footer.vue'
 const isActive = ref(true)
 </script>
 <template>
@@ -33,10 +34,24 @@ const isActive = ref(true)
                                     <div class="col-lg-4 box-img" v-for="(img,i) in topBrandImg.imgList" :key="i">
                                         <RouterLink to="">
                                             <img :src="img.img" alt="">
+                                            
                                         </RouterLink>
                                     </div>
                                 </div>
                                 <div class="branch_box">
+                                    <div class="row mt-2 ">
+                                        <h4>Shop By Category</h4>
+                                        <div class="branch-show " v-for="(item,i) in brandShow.show" :key="i">
+                                            <div class="imgBranch">
+                                                <RouterLink to="">
+                                                    <img :src="item.img" alt="">
+                                                    {{ item.name }}
+                                                </RouterLink>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="branch_box_img">
                                     <div class="row mt-2 ">
                                         <h4>Shop By Branch</h4>
                                         <div class="branch-show " v-for="(item,i) in favoriteBrands.brands" :key="i" v-show="item.isActive">
@@ -70,4 +85,5 @@ const isActive = ref(true)
             </div>
         </div>
     </div>
+    <Footer/>
 </template>

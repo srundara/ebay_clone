@@ -100,7 +100,7 @@ button.btn-search:hover{
   padding: 0;
 }
 .shopby-Category ul li a,h5{
-  padding: 0;
+  padding: 1px;
   text-align: start;
   color: black;
   font-size: 14px;
@@ -131,4 +131,50 @@ button.btn-search:hover{
 }
 .branch_box{
   border-bottom: 1px solid lightgray;
+  margin-top: 15px;
+  height: 300px;
+}
+.branch_box h4{
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 25px;
+}
+.branch_box_img{
+  border-bottom: 1px solid lightgray;
+}
+.branch_box_img h4{
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 25px;
+}
+.branch_box_img .branch-show .imgBranch img{
+  width: 100%;
+}
+.branch_box_img .branch-show .imgBranch img:hover{
+  border: 1px solid lightgray;
+}
+.branch_box_img .branch-show .imgBranch a{
+  color: black;
+}
+.footer-nav{
+  border-top: 1px solid lightgray;
+}
+.footer-nav  .footer{
+  margin-top: 30px;
+
+}
+.footer-nav  .footer ul{
+  display: flex;
+}
+.footer-nav  .footer ul li a{
+  color: gray;
+  font-size: 14px;
+}
+.footer-nav  .footer ul li a:hover{
+  text-decoration: underline;
+}
+.footer-nav  .footer ul li p{
+  color: black;
+  font-size: 14px;
 }
