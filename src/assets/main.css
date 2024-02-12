@@ -96,6 +96,9 @@ button.btn-search:hover{
   border-bottom: 1px dotted lightgray;
   
 }
+.shopby-Category ul{
+  padding: 0;
+}
 .shopby-Category ul li a,h5{
   padding: 0;
   text-align: start;
@@ -112,9 +115,9 @@ button.btn-search:hover{
 }
 .branch-show{
   margin: auto;
-  padding: 1px;
+  /* padding: 1px; */
   width: 220px;
-  height: 250px;
+  height: 220px;
   text-align: center;
 }
 .branch-show .imgBranch img{
@@ -125,4 +128,7 @@ button.btn-search:hover{
 }
 .branch-show .imgBranch a{
   color: black;
+}
+.branch_box{
+  border-bottom: 1px solid lightgray;
 }

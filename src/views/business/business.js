@@ -16,10 +16,42 @@ export const topBrandImg = ref(
                 "id":"3",
                 "img":"/src/assets/img/business/top_brand_3.webp"
             }
-        ]
+        ],
+
     }
 )
-
+export const bottomImg = ref(
+    {
+        imgList:[
+            {
+                "id":"1",
+                "img":"/src/assets/img/business/s-l640.webp"
+            },
+            {
+                "id":"2",
+                "img":"/src/assets/img/business/s-l640-1.webp"
+            },
+            {
+                "id":"3",
+                "img":"/src/assets/img/business/s-l640-2.webp"
+            }
+        ],
+    }
+)
+export const imgShow =  ref(
+    {
+        img:[
+            {
+                "id":"1",
+                "img":"/src/assets/img/business/img1.webp"
+            },
+            {
+                "id":"2",
+                "img":"/src/assets/img/business/img2.webp"
+            },
+        ],
+    }
+)
 // export const data = ref(
 //     {
 //         item:[
