@@ -178,3 +178,24 @@ button.btn-search:hover{
   color: black;
   font-size: 14px;
 }
+.txt_box{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.txt_box h2{
+  font-size: 18px;
+  padding-left: 10px;
+}
+.txt_box p,span{
+  display: flex;
+  padding: 0px 10px;
+  margin: 0px;
+  font-size: 14px;
+}
+.txt_box a{
+  /* display: flex; */
+  padding: 0px 10px;
+  color: blue;
+  font-size: 14px;
+
+}
