@@ -459,3 +459,56 @@ export const footerBar = ref(
         // ]
     }
 )
+
+export const sportMenu = ref(
+    {
+        leftMenu:[
+            {
+                "id":"1",
+                "name":"Adidas",
+                "subMenu":[
+                    {
+                        "id":"1",
+                        "name":"Adidas1",
+                    },
+                    {
+                        "id":"2",
+                        "name":"Adidas2",
+                    },
+                ]
+            },
+            {
+                "id":"2",
+                "name":"Nike"
+            },
+            {
+                "id":"3",
+                "name":"Jordan"
+            },
+            {
+                "id":"4",
+                "name":"New Balance"
+            },
+            {
+                "id":"5",
+                "name":"PUMA"
+            },
+            {
+                "id":"6",
+                "name":"Reebok"
+            },
+            {
+                "id":"7",
+                "name":"Converse"
+            },
+            {
+                "id":"8",
+                "name":"VANS"
+            },
+            {
+                "id":"9",
+                "name":"FILA"
+            },
+        ],
+    }
+)

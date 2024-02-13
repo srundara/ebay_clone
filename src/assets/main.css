@@ -33,6 +33,24 @@
   text-decoration:underline;
   color: black;
 }
+.top_url ul{
+  margin: 0;
+  padding: 0;
+}
+.top_url ul li{
+  font-size: 14px;
+  display: flex;
+}
+.top_url ul li a{
+  padding: 0;
+}
+.top_url ul li span{
+  padding: 0;
+  color: gray;
+}
+.top_url ul li i{
+  margin: 5px;
+}
 .nav_img img{
   width: 100%;
 }
@@ -239,4 +257,25 @@ button.btn-search:hover{
   width: 99%;
   vertical-align: middle;
   padding: 0;
+}
+
+.shose-img-header{
+  background-image: url(/src/assets/img/shose/shose_baner.webp);
+  padding: 17px 25px;
+  height: 192px;
+  background-repeat: round;
+  color: white;
+  /* position: relative; */
+  /* width: 100%; */
+}
+.shose-img-header h1{
+  font-size: 28px;
+  font-weight: bold;
+}
+.shose-img-header h2{
+  font-size: 20px;
+  font-weight: bold;
+}
+.subMenu{
+  margin-left: 15px;
 }
