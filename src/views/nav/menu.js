@@ -1,4 +1,5 @@
 import {ref} from 'vue'
+
 export const topMenu = ref(
     {
         leftMenu:[
@@ -28,6 +29,182 @@ export const topMenu = ref(
                 "id":"4",
                 "name":"My eBay"
             }
+        ]
+    }
+)
+export const allCategory = ref(
+    {
+        categories:[
+            {
+                "id":"1",
+                "name":"Antiques",
+                "value":"1",
+            },
+            {
+                "id":"2",
+                "name":"Art",
+                "value":"2",
+            },
+            {
+                "id":"3",
+                "name":"Baby",
+                "value":"3",
+            },
+            {
+                "id":"4",
+                "name":"Books & Magazines",
+                "value":"4",
+            },
+            {
+                "id":"5",
+                "name":"Business & Industrial",
+                "value":"5",
+            },
+            {
+                "id":"6",
+                "name":"Cameras & Photo",
+                "value":"6",
+            },
+            {
+                "id":"7",
+                "name":" Cell Phones & Accessories",
+                "value":"7",
+            },
+            {
+                "id":"8",
+                "name":" Clothing, Shoes & Accessories",
+                "value":"8",
+            },
+            {
+                "id":"9",
+                "name":"Coins & Paper Money",
+                "value":"9",
+            },
+            {
+                "id":"10",
+                "name":"Collectibles",
+                "value":"10",
+            },
+            {
+                "id":"11",
+                "name":"Computers/Tablets & Networking",
+                "value":"11",
+            },
+            {
+                "id":"12",
+                "name":"Consumer Electronics",
+                "value":"12",
+            },
+            {
+                "id":"13",
+                "name":"Crafts",
+                "value":"13",
+            },
+            {
+                "id":"14",
+                "name":"Dolls & Bears",
+                "value":"14",
+            },
+            {
+                "id":"15",
+                "name":"Movies & TV",
+                "value":"15",
+            },
+            {
+                "id":"16",
+                "name":"Entertainment Memorabilia",
+                "value":"16",
+            },
+            {
+                "id":"17",
+                "name":"Gift Cards & Coupons",
+                "value":"17",
+            },
+            {
+                "id":"18",
+                "name":"Health & Beauty",
+                "value":"18",
+            },
+            {
+                "id":"19",
+                "name":"Home & Garden",
+                "value":"19",
+            },
+            {
+                "id":"20",
+                "name":"Jewelry & Watches",
+                "value":"20",
+            },
+            {
+                "id":"21",
+                "name":"Music",
+                "value":"21",
+            },
+            {
+                "id":"22",
+                "name":"Musical Instruments & Gear",
+                "value":"22",
+            },
+            {
+                "id":"23",
+                "name":"Pet Supplies",
+                "value":"23",
+            },
+            {
+                "id":"24",
+                "name":"Pottery & Glass",
+                "value":"24",
+            },
+            {
+                "id":"25",
+                "name":"Real Estate",
+                "value":"25",
+            },
+            {
+                "id":"26",
+                "name":"Specialty Services",
+                "value":"26",
+            },
+            {
+                "id":"27",
+                "name":"Sporting Goods",
+                "value":"27",
+            },
+            {
+                "id":"28",
+                "name":"Sports Mem, Cards & Fan Shop",
+                "value":"28",
+            },
+            {
+                "id":"29",
+                "name":"Stamps",
+                "value":"29",
+            },
+            {
+                "id":"30",
+                "name":"Tickets & Experiences",
+                "value":"30",
+            },
+            {
+                "id":"31",
+                "name":"Toys & Hobbies",
+                "value":"31",
+            },
+            {
+                "id":"32",
+                "name":"Travel",
+                "value":"32",
+            },
+            {
+                "id":"33",
+                "name":"Video Games & Consoles",
+                "value":"33",
+            },
+            {
+                "id":"34",
+                "name":"Everything Else",
+                "value":"34",
+            },
         ]
     }
 )
@@ -229,7 +406,6 @@ export const shopByInterest = ref(
         ]
     }
 )
-
 export const footerBar = ref(
     {
         footer:[
