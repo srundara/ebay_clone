@@ -1,6 +1,6 @@
 <script setup>
     import {ref} from 'vue';
-    const con1 = "<p>From <RouterLink to=''>smartzpanhones</RouterLink> and <RouterLink to=''>laptops</RouterLink> to <RouterLink to=''>cameras</RouterLink>, <RouterLink to=''>TVs</RouterLink> and <RouterLink to=''>Video Game consoles</RouterLink> you can find the hottest electronics on eBay. Sellers offer a huge selection of brand new products and collector's items, many of which are difficult to find anywhere else. Pair that with competitive pricing and you've got the ultimate online marketplace for electronics</p>"
+    import { RouterLink, RouterView } from 'vue-router';    
 </script>
 <template>
     <div class="col-md-12">
@@ -11,16 +11,16 @@
         </div>
         <div class="txt_box">
             <h4>Video Game Consoles and Games</h4>
-            <p>Whether you're an<RouterLink to="">Xbox Series X</RouterLink> fan or have sworn your allegiance to the <RouterLink to="">PS5</RouterLink> camp, you'll find the video game consoles and <RouterLink to="">video game </RouterLink> you want on eBay.</p>
-            <p>Interested in the <RouterLink to="">Nintendo Switch</RouterLink> or <RouterLink to="">Nintendo Switch Lite?</RouterLink> We've got them.</p>
+            <p>Whether you're an<RouterLink to="">Xbox Series X</RouterLink> fan or have sworn your allegiance to the <RouterLink to="">PS5</RouterLink> camp, you'll find the video game consoles and <RouterLink to="">video game </RouterLink></p>
+            <p> you want on eBay. Interested in the <RouterLink to="">Nintendo Switch</RouterLink> or <RouterLink to="">Nintendo Switch Lite?</RouterLink> We've got them.</p>
         </div>
         <div class="txt_box">
-            <p>With so many sellers offering new and used games, building up your library is easy. From the latest<router-link to="">first-person shooters </router-link> like Call of Duty: Black Ops Cold War</p>
-            <p>to more traditional <router-link to="">platformers</router-link> and everything in between, there are plenty of games waiting for you.</p>
+            <p>With so many sellers offering new and used games, building up your library is easy. From the latest<router-link to="">first-person shooters </router-link> like Call of Duty: </p>
+            <p>Black Ops Cold War to more traditional <router-link to="">platformers</router-link> and everything in between, there are plenty of games waiting for you.</p>
         </div>
         <div class="txt_box">
-            <p>eBay has long been a favorite of retro gamers in search of classic consoles and titles. If you find yourself nostalgic for the days of 8-bit, 16-bit, or 32-bit gaming,</p>
-            <p>we suggest you explore all that eBay has to offer, including <RouterLink to="">Super Nintendo games</RouterLink> and <RouterLink to="">SEGA Genesis cartridges.</RouterLink></p>
+            <p>eBay has long been a favorite of retro gamers in search of classic consoles and titles. If you find yourself nostalgic for the days of 8-bit, 16-bit, or 32-bit </p>
+            <p>gaming, we suggest you explore all that eBay has to offer, including <RouterLink to="">Super Nintendo games</RouterLink> and <RouterLink to="">SEGA Genesis cartridges.</RouterLink></p>
         </div>
         <div class="txt_box">
             <h4>Smartphones and Smart Watches</h4>
@@ -51,8 +51,8 @@
         </div>  
         <div class="txt_box">
             <h4>Smart shopping with eBay Refurbished</h4>
-            <p><RouterLink to="">eBay Refurbished</RouterLink> is your budget-stretching secret weapon. eBay offers the best value on the biggest selection of refurbished products from exceptional sellers</p>
-            <p>with warranties as good as or superior to what's offered on brand-new products.Because everyone should be empowered to get the exact products they want in the right condition at the right price so their dollars go further.</p>
+            <p><RouterLink to="">eBay Refurbished</RouterLink> is your budget-stretching secret weapon. eBay offers the best value on the biggest selection of refurbished products from exceptional </p>
+            <p>sellers with warranties as good as or superior to what's offered on brand-new products.Because everyone should be empowered to get the exact products they want in the right condition at the right price so their dollars go further.</p>
             <ul>
                 <li><u><strong>Certified Refurbished:</strong></u> The item is in <u>pristine, like-new condition, backed by a two-year warranty</u>. It has been professionally inspected, cleaned, and refurbished by the manufacturer or a manufacturer-approved vendor to meet manufacturer specifications. The item will be in new packaging with original or new accessories.</li>
                 <li><u><strong>Excellent Refurbished:</strong></u> The item is in <u>like-new condition, backed by a one year warranty.</u> It has been professionally refurbished, inspected and cleaned to excellent condition by qualified sellers. The item includes original or new accessories and will come in new generic packaging.</li>
@@ -72,11 +72,11 @@
         </div> 
         <div class="txt_box">
             <h4>More Ways to Save with eBay</h4>
-            <p>Nab new tech for the <RouterLink to="">lowest prices</RouterLink> and stock up on savings when it comes to devices as well as accessories including <RouterLink to="">phone chargers,</RouterLink> <RouterLink to="">memory cards,</RouterLink></p>
+            <p>Nab new tech for the <RouterLink  to="">lowest prices</RouterLink> and stock up on savings when it comes to devices as well as accessories including <RouterLink to="">phone chargers,</RouterLink> <RouterLink to="">memory cards,</RouterLink></p>
             <p>and everything you require to maximize your electronics experience. Opt for brand names for budget deals, including Apple, Sony, Nintendo, Samsung, Alienware and HP, and get the latest electronics at the most affordable prices. Stay plugged in to new releases and add a futuristic feel to your home, car, or office with plenty of products at the prices you want. Check eBay for new or used electronics and get everything you need in one place, from smart home devices to virtual reality gear. Tune in, turn on, and try today's tech without breaking the bank.</p>
         </div>
         <div class="txt_box">
-            <p>Enjoy everyday low prices and free shipping with e<RouterLink to="">Bay Deals.</RouterLink> Don't forget to check out <RouterLink to="">eBay Coupons</RouterLink> for upcoming promotions.</p>
+            <p>Enjoy everyday low prices and free shipping with <RouterLink to="">eBay Deals.</RouterLink> Don't forget to check out <RouterLink to="">eBay Coupons</RouterLink> for upcoming promotions.</p>
         </div>
         <div class="txt_box" style="border-bottom: 1px solid lightgray;"></div>
     </div>
