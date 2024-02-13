@@ -5,5 +5,6 @@ import Slidebar from './slideMenu/Slidebar.vue'
 <template>
  <div class="">
     <!-- <Slidebar/> -->
+    asdasdjaksjd
  </div>
 </template>
