@@ -281,3 +281,7 @@ button.btn-search:hover{
 .subMenu{
   margin-left: 15px;
 }
+.box_sport_menu ul li a{
+  display: block;
+  justify-content: space-between;
+}

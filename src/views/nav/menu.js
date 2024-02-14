@@ -469,11 +469,47 @@ export const sportMenu = ref(
                 "subMenu":[
                     {
                         "id":"1",
-                        "name":"Adidas1",
+                        "name":"Adicolor",
                     },
                     {
                         "id":"2",
-                        "name":"Adidas2",
+                        "name":"Campus",
+                    },
+                    {
+                        "id":"3",
+                        "name":"EQT",
+                    },
+                    {
+                        "id":"4",
+                        "name":"Gazelle",
+                    },
+                    {
+                        "id":"5",
+                        "name":"Jeremy Scott",
+                    },
+                    {
+                        "id":"6",
+                        "name":"NMD",
+                    },
+                    {
+                        "id":"7",
+                        "name":"Originals",
+                    },
+                    {
+                        "id":"8",
+                        "name":"Stan Smith",
+                    },
+                    {
+                        "id":"9",
+                        "name":"Superstar",
+                    },
+                    {
+                        "id":"10",
+                        "name":"Tubular",
+                    },
+                    {
+                        "id":"11",
+                        "name":"UltraBoost",
                     },
                 ]
             },

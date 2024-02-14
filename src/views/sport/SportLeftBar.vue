@@ -6,17 +6,19 @@ import { sportMenu} from "../nav/menu";
 <template>
     <div class="col-lg-2">
         <div class="shopby-Category">
-            <ul>
-                <div class="box">
+                <div class="box_sport_menu">
                     <h5 class="">Shop by Category</h5>
-                    <li v-for="(item,i) in sportMenu.leftMenu" :key="i">
-                        <RouterLink to="">{{item.name}}</RouterLink>
-                        <ul class="subMenu">
-                            <li v-for="(item,i) in item.subMenu" :key="i">
-                                <a href="">{{item.name}}</a>
-                            </li>
-                        </ul>
-                    </li>
+                    <ul>
+                        <li v-for="(item,i) in sportMenu.leftMenu" :key="i">
+                            <RouterLink to="">{{item.name}} <i class="fa-solid fa-chevron-down"></i></RouterLink>
+                            
+                            <ul class="subMenu">
+                                <li v-for="(item,i) in item.subMenu" :key="i">
+                                    <RouterLink to="">{{item.name}}</RouterLink>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                     
                 </div>
                 <!-- <div class="box">
@@ -32,7 +34,7 @@ import { sportMenu} from "../nav/menu";
                         <RouterLink to="">{{item.name}}</RouterLink>
                     </li>
                 </div>         -->
-            </ul>
+            <!-- </ul> -->
         </div>
 
     </div>

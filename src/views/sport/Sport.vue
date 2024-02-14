@@ -11,7 +11,7 @@
                     <div class="top_url">
                         <ul>
                             <li>
-                                <RouterLink to="">eBay</RouterLink>
+                                <RouterLink to="/">eBay</RouterLink>
                                 <i class="fa-solid fa-angle-right"></i>
                                 <span>Collectible Sneakers</span>
                             </li>
