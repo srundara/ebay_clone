@@ -282,6 +282,8 @@ button.btn-search:hover{
   margin-left: 15px;
 }
 .box_sport_menu ul li a{
-  display: block;
-  justify-content: space-between;
+  /* display: block; */
+  display: flex;
+  /* padding: auto; */
+  justify-content: space-between !important;
 }
