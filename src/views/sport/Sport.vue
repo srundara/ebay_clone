@@ -2,6 +2,7 @@
     import {ref} from 'vue'
     import { RouterLink, RouterView } from 'vue-router'
     import SportLeftBar from './SportLeftBar.vue'
+    import SportContent from './SportContent.vue';
 </script>
 <template>
     <div class="container-fluid">
@@ -26,7 +27,7 @@
                 </div>
                 <div class="row mt-4">
                     <SportLeftBar/>
-                    <Content/>
+                    <SportContent/>
                 </div>
             </div>
         </div>

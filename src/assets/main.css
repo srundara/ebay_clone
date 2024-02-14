@@ -282,8 +282,23 @@ button.btn-search:hover{
   margin-left: 15px;
 }
 .box_sport_menu ul li a{
-  /* display: block; */
-  display: flex;
+  display: block;
   /* padding: auto; */
   justify-content: space-between !important;
+  display: flex;
+}
+.img-contant{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.img-contant img{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.header h1{
+  font-size: 28px;
+  font-weight: bolder;
+  padding-left: 10px;
 }
