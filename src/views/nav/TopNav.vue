@@ -57,7 +57,7 @@ import { topMenu , allCategory} from "./menu";
               <div class="input-group search">
                 <input type="text" class="form-control " aria-label="Text input with segmented dropdown button" />
                 <select class="form-select" aria-label="Default select example" >
-                  <option style="margin-top: 15px;" selected>All Categories</option>
+                  <option selected>All Categories</option>
                   <optgroup label="----------------------------------------"></optgroup>
                   <option  v-for="(item,i) in allCategory.categories" :key="i" :value="item.id">{{ item.name }}</option>
                 </select>
