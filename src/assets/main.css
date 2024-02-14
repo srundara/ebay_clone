@@ -59,12 +59,14 @@
   padding: 0;
 }
 .nav_search .search input{
-  height: 45px;
+  height: 40px;
   margin: auto;
   width: 350px;
 }
-.nav_search .search select option{
+.nav_search .search select{
   width: 50px;
+  height: 40px;
+  margin: auto;
 }
 .nav_search .search button{
   height: 40px;
