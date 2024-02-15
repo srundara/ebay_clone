@@ -209,6 +209,7 @@ button.btn-search:hover{
 .footer-nav  .footer ul li a{
   color: gray;
   font-size: 14px;
+  padding: 10px;
 }
 .footer-nav  .footer ul li a:hover{
   text-decoration: underline;

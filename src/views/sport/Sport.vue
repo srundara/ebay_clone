@@ -3,6 +3,7 @@
     import { RouterLink, RouterView } from 'vue-router'
     import SportLeftBar from './SportLeftBar.vue'
     import SportContent from './SportContent.vue';
+    import Footer from '../nav/Footer.vue'
 </script>
 <template>
     <div class="container-fluid">
@@ -32,4 +33,5 @@
             </div>
         </div>
     </div>
+    <Footer/>
 </template>
