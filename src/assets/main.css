@@ -51,15 +51,18 @@
   padding: 0;
 }
 .top_url ul li{
-  font-size: 14px;
+  /* font-size: 14px; */
   display: flex;
 }
 .top_url ul li a{
   padding: 0;
+  font-size: 14px;
+  text-decoration: none;
 }
 .top_url ul li span{
   padding: 0;
   color: gray;
+  
 }
 .top_url ul li i{
   margin: 5px;
@@ -86,6 +89,14 @@
   width: 150px;
   margin: auto;
 }
+.search a{
+  width: 120px;
+  text-align: center;
+  padding:5px;
+  text-decoration: none;
+  color: black;
+  
+}
 .top_category_bar{
   border-top: 1px solid lightgray;
 }
@@ -101,6 +112,11 @@
 }
 .slide-menu ul li a:hover{
   background-color:chocolate;
+}
+.shop_category li a{
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
 }
 /* .slide-menu ul li a.router-link-active{
   color: red;
@@ -376,6 +392,12 @@ button.btn-search:hover{
   background-color: lightcyan;
   height: 180px;
 }
+.content-txt .section h1{
+  font-size: 20px;
+  /* margin-top: 25px; */
+  /* background-color: lightcyan;
+  height: 180px; */
+}
 .content .section1{
   /* margin-top: 30px; */
   background-color:#FBCD25;
@@ -392,4 +414,11 @@ button.btn-search:hover{
   color: #592E13;
   font-size: 20px;
   padding: 35px;
+}
+.item-box a{
+  color: black;
+  text-decoration: none;
+  padding: inherit;
+  display: flex;
+  justify-content: space-between
 }

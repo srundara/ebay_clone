@@ -22,10 +22,10 @@ import { topReleasesImg,topReleasesImg2,topReleasesImg3,topReleasesImg4, shoseIm
                             <div class="item-box" >
                                 <RouterLink to="">
                                 <img :src="img.img" alt="">
+                                <div class="mt-2">
+                                    <p>{{ img.name}}</p>
+                                </div>
                                 </RouterLink>
-                            </div>
-                            <div class="mt-2">
-                                <p>{{ img.name}}</p>
                             </div>
                         </div>
                     </div>  
@@ -39,10 +39,10 @@ import { topReleasesImg,topReleasesImg2,topReleasesImg3,topReleasesImg4, shoseIm
                             <div class="item-box" >
                                 <RouterLink to="">
                                 <img :src="img.img" alt="">
+                                <div class="mt-2">
+                                    <p>{{ img.name}}</p>
+                                </div>
                                 </RouterLink>
-                            </div>
-                            <div class="mt-2">
-                                <p>{{ img.name}}</p>
                             </div>
                         </div>
                     </div>  
@@ -149,16 +149,19 @@ import { topReleasesImg,topReleasesImg2,topReleasesImg3,topReleasesImg4, shoseIm
                             <h1>Everything You Need to Know About Buying Sneakers</h1>
                         </section>
                     </div>
-                    <!-- <div class="section1">
-                        <section class="">
-                            <p>Old-school is the new cool with a pair of rare or limited edition deadstock collectible sneakers. You don't need to be walking around with a receipt to prove that you own a pair of Yeezy Boost 350, Jordan 1, Nike Sacai, or adidas Ultraboost sneakers. Get on eBay to buy DS and OG sneakers that may only have been worn once.</p>
-                        </section>
-                    </div> -->
                 </div>
                 <div class="content">
                     <div class="section1">
                         <section class="">
                             <p>Old-school is the new cool with a pair of rare or limited edition deadstock collectible sneakers. You don't need to be walking around with a receipt to prove that you own a pair of Yeezy Boost 350, Jordan 1, Nike Sacai, or adidas Ultraboost sneakers. Get on eBay to buy DS and OG sneakers that may only have been worn once.</p>
+                        </section>
+                    </div>
+                </div>
+                <div class="content_txt mt-5">
+                    <div class="section">
+                        <section class="">
+                            <h1>Every h1air of sneakers are unique</h1>
+                            <p>Sneaker collecting has become a pastime for buyers hoping to get their hands on limited edition Jordan, Yeezy and Air Force 1 sneakers. When Nike OG models like the Nike Dunk and the Nike SB are for sale, potential buyers are attracted by the unique design and the limited number of pairs available. For some, purchasing collectible sneakers is a chance to own a rare item with a unique color scheme, whether accented with black, off-white, or neon. Many sneakers are associated with pop culture trends, celebrities, or movies. Unlike sneakers for everyday use, collectible sneakers are intended to be worn on special occasions or preserved for posterity.</p>
                         </section>
                     </div>
                 </div>

@@ -15,7 +15,7 @@
                             <li>
                                 <RouterLink to="/">eBay</RouterLink>
                                 <i class="fa-solid fa-angle-right"></i>
-                                <span>Collectible Sneakers</span>
+                                <span style="">Collectible Sneakers</span>
                             </li>
                         </ul>
                     </div>

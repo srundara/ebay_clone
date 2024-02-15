@@ -45,11 +45,13 @@ import { topMenu , allCategory} from "./menu";
                     <img src="../../assets/img/1200px-EBay_logo.svg.png" alt="" />
                   </RouterLink>
                 </div>
-                <div class="col-md-5 m-auto btn" style="padding: inherit;display: flex; justify-content: space-between">
-                  <RouterLink to="" class="d-flex">
-                    <span>Shop By Category</span>
-                    <i class="fa-sharp fa-solid fa-chevron-down m-auto"></i>
-                  </RouterLink>
+                <div class="col-md-5 m-auto btn shop_category" style="">
+                  <li>
+                    <RouterLink to="" class="d-flex">
+                      <span style="font-size: 14px;">Shop By Category</span>
+                      <i class="fa-sharp fa-solid fa-chevron-down m-auto"></i>
+                    </RouterLink>
+                  </li>
                 </div>
               </div>
             </div>
@@ -64,7 +66,7 @@ import { topMenu , allCategory} from "./menu";
                 <button class="btn btn-search" style="margin-left: 10px;" type="submit">
                   Search
                 </button>
-                <RouterLink to="" style="width: 120px; text-align: center">Advanced</RouterLink>
+                <RouterLink to="" style="">Advanced</RouterLink>
               </div>
             </div>
           </div>
