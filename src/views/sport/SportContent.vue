@@ -2,7 +2,7 @@
 import {ref} from 'vue'
 import { RouterLink, RouterView } from 'vue-router';
 import { topBrandImg } from '../business/business';
-import { topReleasesImg } from './sport';
+import { topReleasesImg,topReleasesImg2,topReleasesImg3,topReleasesImg4, shoseImg  } from './sport';
 </script>
 <template>
     <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10">
@@ -13,18 +13,134 @@ import { topReleasesImg } from './sport';
                 </RouterLink>
             </div>
             <div class="container">
-                <div class="m-3 header">
-                    <h1>Last Releases</h1>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 box-img" v-for="(img,i) in topBrandImg.imgList" :key="i">
-                        <RouterLink to="">
-                            <img :src="img.img" alt="">
-                        </RouterLink>
+                <section class="box-section">
+                    <div class="m-3 header">
+                        <h1>Last Releases</h1>
                     </div>
-                </div>
+                    <div class="row">
+                        <div class="box-img"  v-for="(img,i) in shoseImg.releases" :key="i">
+                            <div class="item-box" >
+                                <RouterLink to="">
+                                <img :src="img.img" alt="">
+                                </RouterLink>
+                            </div>
+                            <div class="mt-2">
+                                <p>{{ img.name}}</p>
+                            </div>
+                        </div>
+                    </div>  
+                </section>
+                <section class="box-section">
+                    <div class="m-3 header">
+                        <h1>Trending Sneakers</h1>
+                    </div>
+                    <div class="row">
+                        <div class="box-img"  v-for="(img,i) in shoseImg.trendingSneakers" :key="i">
+                            <div class="item-box" >
+                                <RouterLink to="">
+                                <img :src="img.img" alt="">
+                                </RouterLink>
+                            </div>
+                            <div class="mt-2">
+                                <p>{{ img.name}}</p>
+                            </div>
+                        </div>
+                    </div>  
+                </section>
+                
             </div>
-            
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 mt-2 img-contant">
+                <RouterLink to="">
+                    <img :src="topReleasesImg2" alt="">
+                </RouterLink>
+            </div>
+            <div class="container">
+                <section class="explore">
+                    <div class="m-3 header">
+                        <h1>Explore Nike</h1>
+                    </div>
+                    <div class="row">
+                        <div class="box-img"  v-for="(img,i) in shoseImg.exploreNike" :key="i">
+                            <div class="item-box" >
+                                <RouterLink to="">
+                                <img :src="img.img" alt="">
+                                <div class="mt-2">
+                                    <p>{{ img.name}}</p>
+                                </div>
+                                </RouterLink>
+                            </div>
+                        </div>
+                    </div>  
+                </section>
+            </div>
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 mt-2 img-contant">
+                <RouterLink to="">
+                    <img :src="topReleasesImg3" alt="">
+                </RouterLink>
+            </div>
+            <div class="container">
+                <section class="explore">
+                    <div class="m-3 header">
+                        <h1>Explore Adidas</h1>
+                    </div>
+                    <div class="row">
+                        <div class="box-img"  v-for="(img,i) in shoseImg.exploreAdidas" :key="i">
+                            <div class="item-box" >
+                                <RouterLink to="">
+                                <img :src="img.img" alt="">
+                                <div class="mt-2">
+                                    <p>{{ img.name}}</p>
+                                </div>
+                                </RouterLink>
+                            </div>
+                        </div>
+                    </div>  
+                </section>
+            </div>
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 mt-2 img-contant">
+                <RouterLink to="">
+                    <img :src="topReleasesImg4" alt="">
+                </RouterLink>
+            </div>
+            <div class="container">
+                <section class="explore">
+                    <div class="m-3 header">
+                        <h1>Find your favorites</h1>
+                    </div>
+                    <div class="row">
+                        <div class="box-img"  v-for="(img,i) in shoseImg.favorites" :key="i">
+                            <div class="item-box" >
+                                <RouterLink to="">
+                                <img :src="img.img" alt="">
+                                <div class="mt-2">
+                                    <p>{{ img.name}}</p>
+                                </div>
+                                </RouterLink>
+                            </div>
+                        </div>
+                    </div>  
+                </section>
+            </div>
+            <div class="container">
+                <section class="explore">
+                    <div class="m-3 header">
+                        <h1>Best Selling in Shoe Box Shoe Organizers</h1>
+                    </div>
+                    <div class="row">
+                        <div class="box-img"  v-for="(img,i) in shoseImg.bestSell" :key="i">
+                            <div class="item-box" >
+                                <img :src="img.img" alt="">
+                                <div class="">
+                                    <RouterLink to="">
+                                    <p>{{ img.name.substring(0,30)+ '...'}}</p>
+                                    </RouterLink>
+                                 <p>{{ img.price }} {{ img.status }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </section>
+            </div>
         </div>
     </div>
 </template>

@@ -300,5 +300,40 @@ button.btn-search:hover{
 .header h1{
   font-size: 28px;
   font-weight: bolder;
-  padding-left: 10px;
+  /* padding-left: 0; */
+}
+/* .img_box{
+  border-bottom: 1px solid lightgray;
+  margin-top: 15px;
+  height: 300px;
+} */
+.box-img{
+  /* margin: auto; */
+    /* padding: 1px; */
+    width: 220px;
+    height: 260px;
+    text-align: center;
+}
+.box-img img{
+  width: 100%;
+}
+.box-img img:hover{
+  border: 1px solid lightgray;
+}
+.box-img p{
+  font-size: 14px;
+  padding-right: 25px;
+  text-align: center;
+}
+.box-section{
+  margin: 0;
+  height: 340px;
+  /* display: flex; */
+  border-bottom: 1px solid gray;
+}
+.explore{
+  margin: 0;
+  /* height: 340px; */
+  /* display: flex; */
+  border-bottom: 1px solid gray;
 }
