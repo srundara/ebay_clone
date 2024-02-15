@@ -14,13 +14,13 @@ import { topMenu , allCategory} from "./menu";
                 <a> Hi!</a>
               </li>
               <li class="menu">
-                <a href="">Sign In</a>
+                <a class="" href="">Sign In</a>
               </li>
-              <a> Or</a>
+              <li><a> Or</a></li>
               <li class="menu">
                 <a href="" to="">Register</a>
               </li>
-              <li v-for="(menu, i) in topMenu.leftMenu" :key="i">
+              <li class="menu_list" v-for="(menu, i) in topMenu.leftMenu" :key="i">
                 <!-- <a href="">{{ menu.name }}</a> -->
                 <RouterLink class="a" to="">{{ menu.name }}</RouterLink>
               </li>
