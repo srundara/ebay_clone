@@ -22,9 +22,7 @@ import { topReleasesImg,topReleasesImg2,topReleasesImg3,topReleasesImg4, shoseIm
                             <div class="item-box" >
                                 <RouterLink to="">
                                 <img :src="img.img" alt="">
-                                <div class="mt-2">
-                                    <p>{{ img.name}}</p>
-                                </div>
+                                <p>{{ img.name}}</p>
                                 </RouterLink>
                             </div>
                         </div>
@@ -55,13 +53,13 @@ import { topReleasesImg,topReleasesImg2,topReleasesImg3,topReleasesImg4, shoseIm
                 </RouterLink>
             </div>
             <div class="container">
-                <section class="explore">
+                <section class="explore mt-2">
                     <div class="m-3 header">
                         <h1>Explore Nike</h1>
                     </div>
-                    <div class="row">
-                        <div class="box-img"  v-for="(img,i) in shoseImg.exploreNike" :key="i">
-                            <div class="item-box" >
+                    <div class="row mb-4">
+                        <div class="box-img mb-4"  v-for="(img,i) in shoseImg.exploreNike" :key="i">
+                            <div class="item-box mt-2" >
                                 <RouterLink to="">
                                 <img :src="img.img" alt="">
                                 <div class="mt-2">
@@ -83,8 +81,8 @@ import { topReleasesImg,topReleasesImg2,topReleasesImg3,topReleasesImg4, shoseIm
                     <div class="m-3 header">
                         <h1>Explore Adidas</h1>
                     </div>
-                    <div class="row">
-                        <div class="box-img"  v-for="(img,i) in shoseImg.exploreAdidas" :key="i">
+                    <div class="row mb-3">
+                        <div class="box-img mb-4"  v-for="(img,i) in shoseImg.exploreAdidas" :key="i">
                             <div class="item-box" >
                                 <RouterLink to="">
                                 <img :src="img.img" alt="">
@@ -107,8 +105,8 @@ import { topReleasesImg,topReleasesImg2,topReleasesImg3,topReleasesImg4, shoseIm
                     <div class="m-3 header">
                         <h1>Find your favorites</h1>
                     </div>
-                    <div class="row">
-                        <div class="box-img"  v-for="(img,i) in shoseImg.favorites" :key="i">
+                    <div class="row mb-2">
+                        <div class="box-img mb-4"  v-for="(img,i) in shoseImg.favorites" :key="i">
                             <div class="item-box" >
                                 <RouterLink to="">
                                 <img :src="img.img" alt="">
