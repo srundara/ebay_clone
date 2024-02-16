@@ -18,7 +18,7 @@ import Detail from './Detail.vue'
                     </div>
                 </div>
                 <div class="row mt-3">
-                    <div class="col-lg-4 box-img" v-for="(img,i) in topBrandImg.imgList" :key="i">
+                    <div class="col-lg-4 box-image" v-for="(img,i) in topBrandImg.imgList" :key="i">
                         <RouterLink to="">
                             <img :src="img.img" alt="">
                         </RouterLink>
@@ -51,14 +51,14 @@ import Detail from './Detail.vue'
                     </div>
                 </div>
                 <div class="row mt-3">
-                    <div class="col-lg-4 box-img" v-for="(img,i) in bottomImg.imgList" :key="i">
+                    <div class="col-lg-4 box-image" v-for="(img,i) in bottomImg.imgList" :key="i">
                         <RouterLink to="">
                             <img :src="img.img" alt="">
                         </RouterLink>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 box-img" v-for="(img,i) in imgShow.img" :key="i">
+                <div class="row mt-4">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 box-image" v-for="(img,i) in imgShow.img" :key="i">
                         <RouterLink to="">
                             <img :src="img.img" alt="">
                         </RouterLink>
